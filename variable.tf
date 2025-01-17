@@ -27,8 +27,3 @@ variable "instance_type" {
   type    = string
   default = "t2.micro"
 }
-
-variable "vpc_security_group_id" {
-  type    = string
-  default = "sg-044f72c14950a229e"
-}
